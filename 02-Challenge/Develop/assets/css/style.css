@@ -1,3 +1,4 @@
+/* Original verion auto fitted for labtop */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -198,4 +199,76 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* A new version autofitted for mobile device */
+@media screen and (max-width: 640px) {
+    .header h1 {
+      width: 100%;
+      text-align: center;
+      line-height: 40px;
+    }
+    .header div {
+      padding-top: 0;
+      margin-right: 0;
+      float: none;
+      margin-top: 20px;
+    }
+    .header div ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .header div ul li {
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .header div ul li a {
+      line-height: 40px;
+    }
+    .meetingbackground {
+      height: 200px;
+    }
+    .content {
+      width: 100%;
+  
+      margin-left: 0px;
+    }
+    .search-engine-optimization {
+      height: auto;
+    }
+  
+    .online-reputation-management {
+      height: auto;
+    }
+  
+    .social-media-marketing {
+      height: auto;
+    }
+    .content div {
+      clear: both;
+    }
+    img {
+      width: 100%;
+    }
+    .benefits {
+      margin-right: 0px;
+      padding: 5%;
+      width: 100%;
+      float: none;
+    }
+    .benefit-lead {
+      margin-bottom: 40px;
+    }
+  
+    .benefit-brand {
+      margin-bottom: 40px;
+    }
+  
+    .benefit-cost {
+      margin-bottom: 40px;
+    }
+    .footer {
+      width: 100%;
+    }
+  }
 
